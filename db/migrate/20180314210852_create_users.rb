@@ -6,6 +6,7 @@ class CreateUsers < ActiveRecord::Migration[5.1]
     end
   end
   
-  def down drop_table :users
+  def down 
+    drop_table :users
   end
 end
